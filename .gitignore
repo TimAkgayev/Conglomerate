@@ -1,0 +1,6 @@
+*.o
+*.exe
+*.lib
+*.diagsession
+
+.vs/
