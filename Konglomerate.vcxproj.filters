@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Render Engine">
+      <UniqueIdentifier>{4d0c0595-79d9-4f90-839d-edf11e9397a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{35a496ba-36ab-472b-870a-1f26ac740fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Header Files">
+      <UniqueIdentifier>{86143a09-dd0b-47a2-9985-7771488f148c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Source Files">
+      <UniqueIdentifier>{0dadb202-8c45-4e3e-a1ca-d9543c759989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{7b0dd1e2-9a01-49cc-827c-f3e40e730fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kong Engine">
+      <UniqueIdentifier>{1f9eeeb1-84c7-4cc2-8d22-6a80fb80980a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kong Engine\Object">
+      <UniqueIdentifier>{dc78c3d0-5f88-4490-a318-e1b95b0a04fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kong Engine\Camera">
+      <UniqueIdentifier>{df70b7d9-fef9-4b29-b85b-8a3009d5e94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kong Engine\Engine">
+      <UniqueIdentifier>{ee747200-619d-45b2-99a6-dba97a7cce26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Engine\Effects">
+      <UniqueIdentifier>{8a3edc05-f8a5-4a5b-aa35-0a290c688f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Engine\Shaders">
+      <UniqueIdentifier>{36e4a843-6dfb-47ab-b680-7e19d9cb8dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Engine\Shaders\HLSL">
+      <UniqueIdentifier>{3f943f72-0990-484b-8386-6595a1cbc022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Engine\Object">
+      <UniqueIdentifier>{628230d1-57ec-495f-8093-b5eb8c497648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Engine\Engine">
+      <UniqueIdentifier>{12b1009c-a9af-43b6-9662-306b16d91a6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KongEngine.h">
+      <Filter>Kong Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorCodes.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsApplication.h">
+      <Filter>Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectLibrary.h">
+      <Filter>Render Engine\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="KongEffect.h">
+      <Filter>Render Engine\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLibrary.h">
+      <Filter>Render Engine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Render Engine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Kong Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineObject.h">
+      <Filter>Kong Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Kong Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectReader.h">
+      <Filter>Kong Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Render Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXRenderCore.h">
+      <Filter>Render Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderEngine.h">
+      <Filter>Render Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Render Engine\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsApplication.cpp">
+      <Filter>Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectLibrary.cpp">
+      <Filter>Render Engine\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="KongEffect.cpp">
+      <Filter>Render Engine\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Render Engine\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLibrary.cpp">
+      <Filter>Render Engine\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Kong Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectReader.cpp">
+      <Filter>Kong Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="KongEngine.cpp">
+      <Filter>Kong Engine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Render Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXRenderCore.cpp">
+      <Filter>Render Engine\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\vs_transform.hlsl">
+      <Filter>Render Engine\Shaders\HLSL</Filter>
+    </None>
+    <None Include="shaders\ps_texture.hlsl">
+      <Filter>Render Engine\Shaders\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
